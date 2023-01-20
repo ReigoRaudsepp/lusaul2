@@ -28,15 +28,15 @@ text_height = text.get_rect().height
 
 screen.blit(text, [400-text_width/2,160-text_height/2]) # kirja asukoha muutmine
 
-kook = pygame.image.load('kook.png')
+kook = pygame.image.load('kook.png') # kook.png lisamine
 kook = pygame.transform.scale(kook, [120, 70])
 screen.blit(kook,[330,220])
 
-logo = pygame.image.load('TULEVIK_2050_1.png')
+logo = pygame.image.load('TULEVIK_2050_1.png') # logo lisamine
 logo = pygame.transform.scale(logo, [200, 75])
 screen.blit(logo, [10, 10])
 
-mook = pygame.image.load('Mõõk.png')
+mook = pygame.image.load('Mõõk.png') # mõõk.png lisamine
 mook = pygame.transform.scale(mook, [90,100])
 screen.blit(mook, [540,150])
 
